@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class StringP4 {
     static void main() {
         String s ="abcde";
@@ -23,5 +25,18 @@ public class StringP4 {
         isRotation = s.equals(nString.toString());
         System.out.println(isRotation);
         System.out.println(nString);
+        /*
+        public class StringP4 {
+        public static void main(String[] args) {
+        String s = "abcde";
+        String g = "cdeab";
+
+        boolean isRotation = (s.length() == g.length()) && (s + s).contains(g);
+
+        System.out.println(isRotation);
+    }
+}
+        */
+
     }
 }
